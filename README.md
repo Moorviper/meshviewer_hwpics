@@ -7,7 +7,8 @@ The source of the pictures is:
 
 The hashes are generated with:
 
-    https://meshdata.shivering-isles.com
+    https://meshdata.shivering-isles.com 
+    (actually not working :-/ / working on a alternative)
 
 just paste the name of the router and click generate ...
 
@@ -21,9 +22,9 @@ you will get:
 
 
 
-== Usage: ==
+### Usage:
 
-Clone it to yout meshviewer build folder and
+Clone it to yout meshviewer/hopglass build folder and
 
 
 add:
@@ -37,3 +38,20 @@ add:
     ]
 
 to your config.json for meshviewer
+
+### or
+use it directly via cdn:
+
+    "hwImg": [
+        { "thumbnail": "https://cdn.rawgit.com/Moorviper/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",
+          "caption": "Knoten {MODELHASH}"
+        }
+      ]
+      
+ or directly without cdn:
+ 
+     "hwImg": [
+            { "thumbnail": "https://rawgit.com/Moorviper/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",
+              "caption": "Knoten {MODELHASH}"
+            }
+          ]
