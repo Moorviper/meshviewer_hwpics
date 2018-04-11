@@ -8,7 +8,6 @@ The source of the pictures is:
 The hashes are generated with:
 
     https://meshdata.shivering-isles.com 
-    (actually not working :-/ / working on a alternative)
 
 just paste the name of the router and click generate ...
 
